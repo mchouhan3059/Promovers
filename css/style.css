@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.mainheader{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 20px 0;
+}
+.header{
+    width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 999;
+}
+.logo{
+    width: 100px;
+}
+.logo img{
+    width: 100%;
+}
+.number{
+    background-color: #3E4095;
+    padding: 15px 40px;
+    border-radius: 20px 20px 0 20px;
+}
+.number a{
+    color: white;
+}
+.section1{
+    width: 100%;
+    background: url("../../images/background.jpeg")center ;
+    background-size: cover;
+}
+.rgba{
+    background: rgba(0, 0 , 0, 0.5);
+}
+.section1_inner{
+    width: 1120px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 80px 0;
+}
+.section1left{
+    width: calc(70% - 10px);
+    color: white;
+}
+.section1left h1{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+.section1left h2{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.section1left p{
+    line-height: 25px;
+
+}
+.section1right{
+    width: calc(30% - 60px);
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+.section1right h2{
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 0;
+}
+.section1right input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.section1right p{
+    line-height: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+.section1right button{
+    padding: 6px 100px;
+    background: #3E4095;
+    color: white;
+    font-size: 18px;
+}
+.section2{
+    width: 100%;
+    background: #F4F4F4;
+}
+.section2-inner{
+    width: 1120px;
+    margin: auto;
+    padding: 30px 0px;
+}
+.section2-inner .section2box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.section2box .innerbox{
+    width: 30%;
+    background-color: white;
+    padding-bottom: 25px;
+    margin-right: 20px;
+}
+.innerbox img{
+    width: 100%;
+}
+.boxcont{
+    padding: 20px;
+    text-align: center;
+}
+.boxcont h2{
+    color: #3E4095;
+    margin-bottom: 10px;
+}
+.boxcont p{
+    font-size: 17px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.boxcont button{
+    padding: 10px 25px;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #3E4095;
+    color: white;
+    border: none;
+    margin-top: 15px;
+}
+
+
+.coreheading h2{
+    color: #3E4095;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.coreheading img{
+    margin-right: 10px;
+}
+.coreheading span{
+    color: #FFCF7F;
+    margin-left: 5px;
+}
+.section3{
+    width: 100%;
+}
+.inner_section3{
+    width: 1120px;
+    margin: auto;
+    padding: 50px 0px;
+}
+.inner_section3 P{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+.inner_cont{  
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cont-box{
+    width: calc(25% - 50px);
+    margin: 5px;
+    padding: 20px;
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 30px;
+}
+.section4{
+    width: 100%;
+    background: url("../images/background.jpeg")no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.inner_section4{
+    width: 1120px;
+    margin: auto;
+    color: white;
+    padding: 20px;
+}
+.coreachievement{
+    color: white;
+}
+.section4 h3{
+    text-align: center;
+    font-size: 25px;
+}
+.section4_box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box4_cont{
+    width: calc(16% - 20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.section5{
+    width: 100%;
+    padding: 20px 0;
+}
+.inner-section5{
+    width: 1120px;
+    margin: auto;
+
+}
+.section5-blue{
+    width: 700px;
+    background-color: #3E4095;
+    padding: 94px 100px;
+    color: white;
+    border-radius: 10px 10px 0 10px;
+    position: relative;
+    margin: 25px auto;
+}
+.avtar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffcf40;
+    position: absolute;
+    flex-direction: column;
+    top: 20px;
+    left: -92px;
+    border-radius: 0 5px;
+    padding: 10px;
+    color: black;
+}
+.coreheading1 h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.coreheading1 img{
+    margin-right: 10px;
+}
+.contact{
+    width: 100%;
+    display: flex;
+}
+.map{
+    width: 50%;
+}
+.address{
+    width: 50%;
+    display: flex;
+    background: #F4F4F4;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.address a{
+    color: black;
+    line-height: 25px;
+}
+.section6{
+    width: 100%;
+    background-color: #F4F4F4;
+}
+.inner_section6{
+    width: 1120px;
+    margin: auto;
+    padding-top: 50px;
+}
+.inner_section6 h1{
+    color: #3E4095;
+    text-align: center;
+}
+.section6border{
+    border: 1px solid #3E4095;
+    width: 100px;
+    margin: 20px auto; 
+}
+.section6list{
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px dashed #ddd7d7;
+    cursor: pointer;
+}
+.section6list h5{
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    font-weight: normal;
+    align-items: center;
+}
+.section6list span{
+    background-color: #3E4095;
+    color: white;
+    border-radius: 50%;
+    margin-right: 35px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+}
+.section7{
+    width: 100%;
+    background-color: #3E4095;
+    padding: 20px 0;
+    color: white;
+}
+.inner_section7{
+    width: 1120px;
+    margin: auto;
+}
+.Policy{
+    display: flex;
+    justify-content: end;
+    margin: 10px 0;
+}
+.policyh5{
+    margin-right: 10px;
+}
+.privacyborder{
+    border-right: 1px solid black;
+}
+.section7border{
+    border: 1px solid white;
+    margin: 10px 0;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+.upperarrow{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: 0.5s;
+}
